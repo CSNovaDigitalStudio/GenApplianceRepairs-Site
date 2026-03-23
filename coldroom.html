@@ -46,6 +46,27 @@
 <a href="contact.html">Contact</a>
 </div>
 </nav>
+<script>
+const site = "genjayden2026";
 
+/* TOTAL VISITS */
+fetch(`https://api.countapi.xyz/hit/${site}/total`);
+
+/* TODAY VISITS */
+const today = new Date().toISOString().slice(0,10);
+fetch(`https://api.countapi.xyz/hit/${site}/day-${today}`);
+
+/* MONTH VISITS */
+const month = new Date().toISOString().slice(0,7);
+fetch(`https://api.countapi.xyz/hit/${site}/month-${month}`);
+
+/* YEAR VISITS */
+const year = new Date().getFullYear();
+fetch(`https://api.countapi.xyz/hit/${site}/year-${year}`);
+
+/* PAGE POPULARITY */
+const page = location.pathname.split("/").pop() || "index.html";
+fetch(`https://api.countapi.xyz/hit/${site}/page-${page}`);
+</script>
 </body>
 </html>
