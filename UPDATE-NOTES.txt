@@ -1,0 +1,12 @@
+GEN JAYDEN APPLIANCE REPAIRS - UPDATED WEBSITE
+
+Upload/extract the contents of this ZIP to the existing website hosting location, preserving the folder structure.
+
+Updates:
+- Added six customer-supplied appliance photos to the gallery.
+- Fixed the gallery reference to the removed generator image (g3.jpg).
+- Improved gallery layout content and added a WhatsApp enquiry CTA.
+- Removed unsupported homepage claims about same-day service, years of experience, thousands of completed repairs, and sample testimonials.
+- Kept the existing brand assets, pages, contact number and social links.
+
+Please confirm the exact service areas and service list with the business before publishing any location-specific claims.
